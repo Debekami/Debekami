@@ -1,32 +1,37 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang = "pl">
 	<head>
 		<meta charset="utf-8" />
-		<title>Portfolio | Debekami</title>
-		<meta name = "descritpion" content = "My Portfolio!" />
+		<title>Debekami</title>
+		<meta name = "descritpion" content = "My Webpage!" />
 		<meta name = "author" content = "Debekami" />
 		<link rel = "stylesheet" href = "../styles/index.css" />
+		<link rel = "stylesheet" href = "../styles/nav.css" />
 	</head>
 	<body>
 		<div id = "mainHeader">
-			<h1 id = "text">Portfolio</h1>
-			<h4 id = "text">Debekami</h4>
+			<h1 id = "text">Debekami</h1>
 		</div>
 		<br />
 		<ui id = "nav">
 			<li>
-				<a href = "../aboutme/index.html">About Me</a>
+				<button id = "aboutme">O Mnie</button>
 			</li>
 			<li>
-				<a href = "../projects/index.html">My Projects</a>
+				<button id = "projects">Projekty</button>
 			</li>
 			<li>
-				<a href = "../github/index.html">My Github</a>
+				<button id = "github">GitHub</button>
 			</li>
 			<li>
-				<a href = "../contact/index.html">Contact</a>
+				<button id = "contact">Kontakt</button>
 			</li>
 		</ui>
 		</div>
+		<content>
+			<h1>GitHub</h1>
+			<img class = "image" id = "DebekamiGithubImage" src = "../images/github.png" alt = "Debekami GitHub">
+		</content>
+		<script src = "../scripts/nav.js"></script>
 	</body>
 </html>
