@@ -30,3 +30,8 @@ content {
 .image {
 	box-shadow: 0 0 3px #920dff, 0 0 5px #920dff;
 }
+footer {
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+}
