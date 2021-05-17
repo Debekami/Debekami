@@ -1,34 +1,31 @@
 html {
 	font-family: monospace, monospace;
 	text-align: center;
-	background-color: rgb(18, 18, 18);
-	/*background: linear-gradient(rgb(28, 12, 41), rgb(28, 18, 38));*/
 	user-select: none;
-	color: white;
+	color: black;
+	background-color: rgb(220, 220, 220);
+	text-shadow: 0 0 1px #000000, 0 0 2px #000000;
+	overflow-x: hidden;
 }
 #mainHeader {
 	width: 100%;
-	height: 200px;
-	/*background-color: rgb(20, 20, 20);*/
-	background: linear-gradient(rgb(20, 20, 20), rgb(45, 21, 69));
+	position: relative;
+	height: 300px;
+	top: 0px;
+	margin: 0 -9999rem;
+	padding: .25rem 9999rem;
+	margin-top: -0.5em;
+	background: linear-gradient(#5f72be, #9921e8);
+	position: relative;
+
 }
 #text {
-	top: 40%;
+	top: 35%;
 	position: relative;
 }
 button {
 	background: none;
 	border: none;
-}
-div {
-	box-shadow: 0 0 3px #920dff, 0 0 5px #920dff;
-	text-shadow: 0 0 3px #920dff, 0 0 5px #920dff;
-}
-content {
-	text-shadow: 0 0 3px #920dff, 0 0 5px #920dff;
-}
-.image {
-	box-shadow: 0 0 3px #920dff, 0 0 5px #920dff;
 }
 footer {
 	position: fixed;

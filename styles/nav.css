@@ -2,8 +2,6 @@
 	list-style: none;
 	width: 100%;
 	height: 100px;
-	margin: 0;
-	padding: 0;
 	white-space: nowrap;
 	overflow-x: auto;
 	overflow-y: hidden;
@@ -11,14 +9,15 @@
 #nav > li {
 	display: inline-block;
 	width: 20%;
-	height: 100%;
+	height: 50px;
 	background-color: rgb(20, 20, 20);
-	box-shadow: 0 0 3px #920dff, 0 0 5px #920dff;
+	margin-top: -3em;
+	z-index: 9;
+	position: relative;
 }
 #nav > li > button {
 	width: 100%;
 	height: 100%;
-	text-shadow: 0 0 3px #920dff, 0 0 5px #920dff;
 	color: white;
 }
 #nav > li:nth-child(even) {
